@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{tikzducks}
+\usepackage{graphicx}
+\usepackage{tikz}
+\AddToHook{shipout/foreground}{
+  \begin{tikzpicture}[remember picture,overlay]
+    \foreach \x in {0,...,20} {
+        \foreach \y in {0,...,40} {
+          \node [opacity=0.5] at ([
+                                    xshift=\x*5cm,
+                                    yshift=-\y*3cm
+                                    ]current page.north west) {\rotatebox{45}{For John Doe's Form (\today)}};
+        }
+      }
+    \end{tikzpicture}
+}
+\begin{document}
+\begin{figure}
+    \center
+    \includegraphics{example-image-duck}\\ %path to image
+    \includegraphics{example-image-duck}\\ %path to image
+    \includegraphics{example-image-duck}\\ %path to image
+\end{figure}
+\end{document}
