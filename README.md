@@ -1,6 +1,6 @@
 # $\LaTeX$ Tiling Watermark for Image
 
-This repository contains a LaTeX template that adds a tiling watermark to any image document that contains sensitive information (ID card, etc.). The watermark can help prevent criminal activities when the document is printed and not destroyed properly. The watermark can also indicate the owner and the intended recipient of the document, and how they should handle it.
+This repository contains a LaTeX template that adds a tiling watermark to any image document that contains sensitive information (ID card, KTP, Kartu Keluarga, etc.) The watermark can help prevent criminal activities when the document is printed and not destroyed properly. The watermark can also indicate the owner and the intended recipient of the document, and how they should handle it.
 
 ## Features
 
